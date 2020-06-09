@@ -7,6 +7,10 @@ int hourglassSum(vector<vector<int>> arr) {
 
     int ind[2,4] = {{0,2},{1,3},{2,4},{3,5}};
 
+    int sum[16];
+
+    for(int )
+
 
 }
 
