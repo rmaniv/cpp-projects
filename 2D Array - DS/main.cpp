@@ -3,22 +3,25 @@
 using namespace std;
 
 // Complete the hourglassSum function below.
-int hourglassSum(vector<vector<int>> arr) {
+int hourglassSum(vector<vector<int> > arr) {
 
-    int ind[2,4] = {{0,2},{1,3},{2,4},{3,5}};
+    int sum[16] = {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0};
 
-    int sum[16];
+    for(int i = 0; i < 16; i++)
+    {
 
-    for(int )
+    }
 
+    int max;
 
+    return max;
 }
 
 int main()
 {
     ofstream fout(getenv("OUTPUT_PATH"));
 
-    vector<vector<int>> arr(6);
+    vector<vector<int> > arr(6);
     for (int i = 0; i < 6; i++) {
         arr[i].resize(6);
 
